@@ -41,13 +41,13 @@
 
 ```bash
 # 安装全部技能
-npx skills add <你的GitHub用户名>/cyyd
+npx skills add sud981953-netizen/cyyd
 
 # 只安装单个技能
-npx skills add <你的GitHub用户名>/cyyd --skill cyyd-copywriting
+npx skills add sud981953-netizen/cyyd --skill cyyd-copywriting
 
 # 查看仓库里有哪些技能
-npx skills add <你的GitHub用户名>/cyyd --list
+npx skills add sud981953-netizen/cyyd --list
 ```
 
 也可以手动安装：把 `skills/<技能名>/` 文件夹复制到对应 Agent 的技能目录（如 Claude Code 的 `~/.claude/skills/`）。
